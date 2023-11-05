@@ -15,7 +15,8 @@
   //nullish coalescing operator (if value return null or undefined, then set a default value)
   // null / undefined ---> if decision making
 
-  const isAuthenticated = "";
+  const isAuthenticated = null;
+  // const isAuthenticated = "";
 
   const result1 = isAuthenticated ?? "Guest";
   const result2 = isAuthenticated ? isAuthenticated : "Guest";
