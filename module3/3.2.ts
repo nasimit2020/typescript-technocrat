@@ -43,6 +43,6 @@
   }
 
   const teacher1 = new Teacher("Kamal", 45, "Uganda", "Professor");
-  teacher1.
+
   //
 }
